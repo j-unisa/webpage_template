@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website: {% block title %}{% endblock %}</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Centered header -->
+    <h1 class="center-text">Navigation Bar</h1>
+
+    <!-- Centered table with links -->
+    <table class="center-table">
+        <tbody>
+            <tr>
+                <td><a href="/first">First</a></td>
+                <td><a href="/second">Second</a></td>
+                <td><a href="/third">Third</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        {% block main %}{% endblock %}
+    </div>
+</body>
+</html>

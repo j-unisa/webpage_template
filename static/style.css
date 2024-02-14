@@ -1,0 +1,11 @@
+/* Centers the entire table */
+.center-table
+{
+    margin: 0 auto;
+}
+
+/* Centers text */
+.center-text
+{
+    text-align: center;
+}
